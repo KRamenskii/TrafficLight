@@ -56,15 +56,47 @@
 		1D86275D2886D94E00C67E3D /* TrafficLight */ = {
 			isa = PBXGroup;
 			children = (
-				1D86275E2886D94E00C67E3D /* AppDelegate.swift */,
-				1D8627602886D94E00C67E3D /* SceneDelegate.swift */,
-				1D8627622886D94E00C67E3D /* ViewController.swift */,
+				1DA156702886DD6E005E6FE6 /* Sources */,
+				1DA1566F2886DD67005E6FE6 /* Resources */,
+			);
+			path = TrafficLight;
+			sourceTree = "<group>";
+		};
+		1DA1566F2886DD67005E6FE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1D8627642886D94E00C67E3D /* Main.storyboard */,
 				1D8627672886D95200C67E3D /* Assets.xcassets */,
 				1D8627692886D95200C67E3D /* LaunchScreen.storyboard */,
 				1D86276C2886D95200C67E3D /* Info.plist */,
 			);
-			path = TrafficLight;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1DA156702886DD6E005E6FE6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DA156722886DD83005E6FE6 /* App */,
+				1DA156712886DD7D005E6FE6 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1DA156712886DD7D005E6FE6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1D8627622886D94E00C67E3D /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1DA156722886DD83005E6FE6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1D86275E2886D94E00C67E3D /* AppDelegate.swift */,
+				1D8627602886D94E00C67E3D /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8V72KCX9X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrafficLight/Info.plist;
+				INFOPLIST_FILE = TrafficLight/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8V72KCX9X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrafficLight/Info.plist;
+				INFOPLIST_FILE = TrafficLight/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
